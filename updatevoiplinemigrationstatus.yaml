@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: UpdateVOIPLineMigrationStatus
+  description:  |
+    The UpdateVOIPLineMigrationStatus service is part of the integration flow “Resource Provisioning”.
+spec:
+  type: openapi
+  owner: Developer
+  lifecycle: production
+  definition:
+    $text: https://github.com/baludeepak7/UpdateVOIPLineMigrationStatus/blob/main/updatevoiplinemigrationstatus.yaml
+    
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: UpdateVOIPLineMigrationStatus
+  description: |
+    The UpdateVOIPLineMigrationStatus service is part of the integration flow “Resource Provisioning”.
+  annotations:
+    gitlab.com/project-id: '48576071'
+    sonarqube.org/project-key: com.binpipe.spboot:demo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: Developer
+  providesApis:
+    - UpdateVOIPLineMigrationStatus
