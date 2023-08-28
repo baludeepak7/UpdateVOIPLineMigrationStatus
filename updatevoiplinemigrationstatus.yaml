@@ -8,6 +8,7 @@ spec:
   type: openapi
   owner: Developer
   lifecycle: demo
+  system: VMO2-FixedLine
   definition:
     $text: https://github.com/baludeepak7/UpdateVOIPLineMigrationStatus/blob/main/updatevoiplinemigrationstatus.yaml
     
