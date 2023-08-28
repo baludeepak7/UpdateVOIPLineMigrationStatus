@@ -19,18 +19,28 @@ failure.*
 
 
   UpdateVOIPLineMigrationStatus.telephoneNumber   (string)
+  
   UpdateVOIPLineMigrationStatus.activity          (Object)
+  
   UpdateVOIPLineMigrationStatus.activity.name     (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task      (Object)
+  
   UpdateVOIPLineMigrationStatus.activity.task.name  (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task.status  (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task.reason   (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task.reasonCode (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task.comments  (string)
+  
   UpdateVOIPLineMigrationStatus.activity.task.timestamp  (string)
 
 Error response 
 --------------
 
   SYSTEM   -  10686   -  System Exception  -   CRITICAL -      Middleware
+  
   BUSINESS  - 10685   -   Business Exception  - ERROR     -     Middleware/Backend
