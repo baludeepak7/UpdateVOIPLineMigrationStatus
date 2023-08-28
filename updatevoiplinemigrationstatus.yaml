@@ -27,6 +27,6 @@ spec:
   type: service
   lifecycle: demo
   owner: Developer
-  system: VMO2
+  system: VMO2-FixedLine
   providesApis:
     - UpdateVOIPLineMigrationStatus
